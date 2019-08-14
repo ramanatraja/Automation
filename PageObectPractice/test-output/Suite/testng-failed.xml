@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.test.ValidateHomePage">
+        <methods>
+          <include name="teamDown"/>
+          <include name="validateHomePage"/>
+          <include name="EnvSetup"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.ValidateHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
